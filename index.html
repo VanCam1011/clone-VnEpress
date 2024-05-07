@@ -1,0 +1,2807 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="./assets/icon-exvn.jpg"
+      type="image/x-icon"
+    />
+    <title>VNExpress Website</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="h__container">
+        <h1>
+          <a
+            href="#"
+            class="logo"
+            title="VnExpress - Báo tiếng Việt nhiều người xem nhất"
+          >
+            <img src="./assets/logo.svg" alt="logo" />
+          </a>
+        </h1>
+        <span class="time-now">Chủ Nhật, 5/5/2024</span>
+        <div class="time-now weather-day hidden" title="Hà Nội hiện tại 33  độ">
+          <div class="news-area">
+            <div class="arrow-down">
+              <span>Hà Nội</span>
+              <i class="fa-solid fa-arrow-down"></i>
+            </div>
+          </div>
+          <div class="weather">
+            <i class="fa-solid fa-cloud"></i>
+            <span>
+              <span>
+                33
+                <sup>o</sup>
+              </span>
+            </span>
+          </div>
+        </div>
+        <div class="right">
+          <h2>
+            <a href="#" class="btn24hqua" title="Mới nhất">Mới nhất</a>
+          </h2>
+          <div class="new-area">
+            <span class="txt-area"> Tin theo khu vực </span>
+          </div>
+          <a href="" class="evne">
+            <img src="./assets/icon-exvn.jpg" alt="Icon VnExpress" />
+            International
+          </a>
+          <form action="" class="search search-vne" id="formSearchHeader">
+            <input
+              type="text"
+              autocomplete="off"
+              name="q"
+              placeholder="Tìm kiếm ..."
+            />
+            <button type="submit" title="Tìm kiếm" id="ButtonSearchHeader">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <div id="myvne_taskbar">
+            <div id="myvne" class="myvne_taskbar">
+              <div class="myvne_container">
+                <ul class="myvne_form-log">
+                  <li>
+                    <a href="" class="log_txt" title="Đăng nhập">
+                      <i class="fa-solid fa-user"></i>
+                      Đăng nhập
+                    </a>
+                  </li>
+                  <li class="myvne_notification">
+                    <a href="#">
+                      <i class="fa-solid fa-bell"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="main-nav-section" class="main-nav-section">
+      <nav class="main-nav">
+        <ul class="nav-parent">
+          <li class="home">
+            <a href="">
+              <i class="house fa-solid fa-house"></i>
+              <img class="exvn" src="./assets/icon-exvn.jpg" alt="" />
+            </a>
+          </li>
+          <li class="newleast">
+            <a href="">Mới nhất</a>
+          </li>
+          <li class="thoisu">
+            <a href="">Thời sự</a>
+            <ul class="thoisu__dropdown">
+              <li><a href="#">Chính trị</a></li>
+              <li><a href="#">Dân sinh</a></li>
+              <li><a href="#">Giao thông</a></li>
+            </ul>
+          </li>
+          <li class="gocnhin">
+            <a href="">Góc nhìn</a>
+          </li>
+          <li class="thegioi">
+            <a href="">Thế giới</a>
+          </li>
+          <li class="video">
+            <a href="">Video</a>
+          </li>
+          <li class="podcasts">
+            <a href="">Podcast</a>
+          </li>
+          <li class="kinhdoanh">
+            <a href="">Kinh doanh</a>
+          </li>
+          <li class="batdongsan">
+            <a href="">Bất động sản</a>
+          </li>
+          <li class="khoahoc">
+            <a href="">Khoa học</a>
+          </li>
+          <li class="giaitri">
+            <a href="">Giải trí</a>
+          </li>
+          <li class="thethao">
+            <a href="">Thể thao</a>
+          </li>
+          <li class="phapluat">
+            <a href="">Pháp luật</a>
+          </li>
+          <li class="giaoduc">
+            <a href="">Giáo dục</a>
+          </li>
+          <li class="suckhoe">
+            <a href="">Sức khỏe</a>
+          </li>
+          <li class="doisong">
+            <a href="">Đời sống</a>
+          </li>
+          <li class="dulich">
+            <a href="">Du lịch</a>
+          </li>
+          <li class="sohoa">
+            <a href="">Số hóa</a>
+          </li>
+          <li class="xe">
+            <a href="">Xe</a>
+          </li>
+          <li class="ykien">
+            <a href="">Ý kiến</a>
+          </li>
+          <li class="tamsu">
+            <a href="">Tâm sự</a>
+          </li>
+          <li class="thugian">
+            <a href="">Thư giãn</a>
+          </li>
+          <li class="menu">
+            <a href="">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <section id="topstory-section">
+      <div class="topstory-container">
+        <div class="col-left">
+          <div class="wrapper-topstory">
+            <article class="article-topstory">
+              <div class="img-box">
+                <img src="./assets/quan-ky.jpg" alt="Top Story" />
+              </div>
+              <h3 class="title-news">
+                Người dân đứng kín đường xem tổng duyệt diễu binh
+              </h3>
+              <p class="description">
+                Người dân đổ về đứng kín hai bên đường, cầm cờ tổ quốc vẫy chào,
+                hò reo mỗi khi đoàn diễu binh biểu diễn trong Lễ tổng duyệt kỷ
+                niệm 70 năm chiến thắng Điện Biên Phủ.
+              </p>
+              <p class="meta-news">
+                <a href="">Kinh doanh</a>
+                <a href="" class="count-cmt">
+                  <i class="fa-solid fa-comment"></i>
+                  2
+                </a>
+              </p>
+            </article>
+            <div class="article-topstory-sub">
+              <div class="inner">
+                <ul class="list-substory">
+                  <li>
+                    <h3 class="title-news">
+                      Vì sao Thanh Hóa đứng đầu du lịch cả nước dịp lễ 30/4?
+                    </h3>
+                    <div class="art-news">
+                      <img src="./assets/lễ.jpg" alt="Sub Story 1" />
+                    </div>
+                  </li>
+                  <li>
+                    <h3 class="title-news">
+                      Tổng duyệt diễu binh, diễu hành 70 năm chiến thắng Điện
+                      Biên Phủ
+                    </h3>
+                    <div class="art-news">
+                      <img src="./assets/diễu binh.jpg" alt="Sub Story 2" />
+                    </div>
+                  </li>
+                  <li class="gocnhin-section">
+                    <a href="" class="title-gn">Góc nhìn</a>
+                    <article class="gn-content">
+                      <h3 class="title-news">Sách 18+</h3>
+                      <p class="description">
+                        Cảnh nhạy cảm trong cuốn sách phát cho học sinh lớp 11
+                        làm lộ ra khoảng trống về dán nhãn tuổi cho sách.
+                      </p>
+                      <div class="info-author">
+                        <p class="author-news">
+                          <a href="" class="author-name">Võ Nhật Vinh</a>
+                          <a href="" class="author-comment">
+                            <i class="fa-solid fa-comment"></i>
+                            <span>13</span>
+                          </a>
+                        </p>
+                        <div class="art-author">
+                          <img
+                            src="./assets/vonhatvinh.png"
+                            alt="Võ Nhật Vinh"
+                          />
+                        </div>
+                      </div>
+                    </article>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <aside class="col-right"></aside>
+      </div>
+    </section>
+    <section id="stream-section section">
+      <div class="stream-container">
+        <div class="col-left">
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Trực thăng bay biểu diễn trên bầu trời Điện Biên</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/stream-image1.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              11 trực thăng bay biểu diễn kéo cờ Tổ quốc, cờ Đảng trong ngày
+              tổng duyệt lễ kỷ niệm 70 năm chiến thắng Điện Biên Phủ, sáng 5/5.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Hoá đơn tiền điện tăng đột biến"</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/điện.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              Nhu cầu tiêu thụ điện cao điểm mùa khô (tháng 5-7) dự báo tăng
+              13%, cao hơn nhiều so với kế hoạch cung cấp điện đặt ra trước đó.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Tiêu thụ điện dự báo tăng kỷ lục</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/stream-image1.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              Nhu cầu tiêu thụ điện cao điểm mùa khô (tháng 5-7) dự báo tăng
+              13%, cao hơn nhiều so với kế hoạch cung cấp điện đặt ra trước đó.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Tiêu thụ điện dự báo tăng kỷ lục</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/stream-image1.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              Nhu cầu tiêu thụ điện cao điểm mùa khô (tháng 5-7) dự báo tăng
+              13%, cao hơn nhiều so với kế hoạch cung cấp điện đặt ra trước đó.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Tiêu thụ điện dự báo tăng kỷ lục</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/stream-image1.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              Nhu cầu tiêu thụ điện cao điểm mùa khô (tháng 5-7) dự báo tăng
+              13%, cao hơn nhiều so với kế hoạch cung cấp điện đặt ra trước đó.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Tiêu thụ điện dự báo tăng kỷ lục</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/stream-image1.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              Nhu cầu tiêu thụ điện cao điểm mùa khô (tháng 5-7) dự báo tăng
+              13%, cao hơn nhiều so với kế hoạch cung cấp điện đặt ra trước đó.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Tiêu thụ điện dự báo tăng kỷ lục</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/stream-image1.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              Nhu cầu tiêu thụ điện cao điểm mùa khô (tháng 5-7) dự báo tăng
+              13%, cao hơn nhiều so với kế hoạch cung cấp điện đặt ra trước đó.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Tiêu thụ điện dự báo tăng kỷ lục</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/stream-image1.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              Nhu cầu tiêu thụ điện cao điểm mùa khô (tháng 5-7) dự báo tăng
+              13%, cao hơn nhiều so với kế hoạch cung cấp điện đặt ra trước đó.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Tiêu thụ điện dự báo tăng kỷ lục</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/stream-image1.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              Nhu cầu tiêu thụ điện cao điểm mùa khô (tháng 5-7) dự báo tăng
+              13%, cao hơn nhiều so với kế hoạch cung cấp điện đặt ra trước đó.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Tiêu thụ điện dự báo tăng kỷ lục</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/stream-image1.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              Nhu cầu tiêu thụ điện cao điểm mùa khô (tháng 5-7) dự báo tăng
+              13%, cao hơn nhiều so với kế hoạch cung cấp điện đặt ra trước đó.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Tiêu thụ điện dự báo tăng kỷ lục</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/stream-image1.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              Nhu cầu tiêu thụ điện cao điểm mùa khô (tháng 5-7) dự báo tăng
+              13%, cao hơn nhiều so với kế hoạch cung cấp điện đặt ra trước đó.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Tiêu thụ điện dự báo tăng kỷ lục</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/stream-image1.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              Nhu cầu tiêu thụ điện cao điểm mùa khô (tháng 5-7) dự báo tăng
+              13%, cao hơn nhiều so với kế hoạch cung cấp điện đặt ra trước đó.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Tiêu thụ điện dự báo tăng kỷ lục</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/stream-image1.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              Nhu cầu tiêu thụ điện cao điểm mùa khô (tháng 5-7) dự báo tăng
+              13%, cao hơn nhiều so với kế hoạch cung cấp điện đặt ra trước đó.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Tiêu thụ điện dự báo tăng kỷ lục</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/stream-image1.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              Nhu cầu tiêu thụ điện cao điểm mùa khô (tháng 5-7) dự báo tăng
+              13%, cao hơn nhiều so với kế hoạch cung cấp điện đặt ra trước đó.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Tiêu thụ điện dự báo tăng kỷ lục</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/stream-image1.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              Nhu cầu tiêu thụ điện cao điểm mùa khô (tháng 5-7) dự báo tăng
+              13%, cao hơn nhiều so với kế hoạch cung cấp điện đặt ra trước đó.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+          <article class="item-news-common">
+            <h3 class="title-newss">
+              <a href="">Tiêu thụ điện dự báo tăng kỷ lục</a>
+            </h3>
+            <div class="art-news">
+              <img src="./assets/stream-image1.jpg" alt="Stream Image 1" />
+            </div>
+            <p class="news-description">
+              Nhu cầu tiêu thụ điện cao điểm mùa khô (tháng 5-7) dự báo tăng
+              13%, cao hơn nhiều so với kế hoạch cung cấp điện đặt ra trước đó.
+              <span>
+                <i class="fa-solid fa-comment"></i>
+                <span class="count-cmt">20</span>
+              </span>
+            </p>
+          </article>
+        </div>
+        <div class="col-right">
+          <div class="box-category">
+            <div class="title-box-category">
+              <h2 class="main-text">
+                <a href="">Kinh doanh</a>
+              </h2>
+              <span class="sub-text">
+                <a href="">Quốc tế</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Doanh nghiệp</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Chứng khoán</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Vĩ mô</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Hậu trường kinh doanh</a>
+              </span>
+            </div>
+            <div class="content-box-category">
+              <article class="content-item-left">
+                <div class="art-content">
+                  <img src="./assets/stream-image3.jpg" alt="Stream Image 3" />
+                </div>
+                <div class="info-content">
+                  <h3 class="title-news">
+                    <a href=""
+                      >Tỷ phú Trần Đình Long: 5-10 năm tới Hòa Phát chỉ tập
+                      trung vào thép</a
+                    >
+                  </h3>
+                  <p class="description">
+                    <a href="">
+                      Ông Trần Đình Long nói không đổi chiến lược đa ngành nhưng
+                      thị trường thép đang quá khốc liệt nên phải tập ...
+                    </a>
+                  </p>
+                </div>
+              </article>
+              <article class="content-item-right">
+                <h3 class="title-news">
+                  <a href=""
+                    >Áp lực đơn hàng phải 'xanh' nhưng giá không tăng</a
+                  >
+                </h3>
+                <p class="description">
+                  <a href="">
+                    Áp lực về tiêu chí xanh, hay bền vững trong đơn hàng xuất
+                    khẩu ngày càng dày đặc trong khi doanh nghiệp ...
+                  </a>
+                </p>
+              </article>
+              <div class="content-bottom">
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href=""
+                      >Nhà phố có mặt tiền mở linh hoạt, cản nắng hướng Tây</a
+                    >
+                  </h3>
+                </article>
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href=""
+                      >Căn hộ 91 m2 cho người độc thân, phí cải tạo 650 triệu
+                      đồng</a
+                    >
+                  </h3>
+                </article>
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href="">Vườn hoa Đà Lạt có thể được đấu giá cho thuê</a>
+                  </h3>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="box-category2">
+            <div class="box-tygia">
+              <div class="giavang">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <a href="">
+                          <strong>Giá vàng</strong>
+                        </a>
+                      </td>
+                      <td>Mua</td>
+                      <td>Bán</td>
+                    </tr>
+                    <tr>
+                      <td>Thế giới (USD/ounce)</td>
+                      <td>2.322,4</td>
+                      <td>2.323,4</td>
+                    </tr>
+                    <tr>
+                      <td>Vàng SJC (triệu đồng/lượng)</td>
+                      <td>81,7</td>
+                      <td>84</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="laisuat">
+                <table>
+                  <tbody>
+                    <tr>
+                      <td>
+                        <a href="">
+                          <strong> Lãi suất tiết kiệm(%/năm)</strong>
+                        </a>
+                      </td>
+                      <td>1</td>
+                      <td>3</td>
+                      <td>6</td>
+                      <td>9</td>
+                      <td>12</td>
+                    </tr>
+                    <tr>
+                      <td>Online</td>
+                      <td>3,5</td>
+                      <td>3,5</td>
+                      <td>4,6</td>
+                      <td>4,8</td>
+                      <td>5,3</td>
+                    </tr>
+                    <tr>
+                      <td>Tại quầy</td>
+                      <td>3,1</td>
+                      <td>3,4</td>
+                      <td>4,5</td>
+                      <td>4,7</td>
+                      <td>5,2</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="box-category">
+            <div class="title-box-category">
+              <span class="main-text">
+                <a href="">Bất động sản</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Chính sách</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Thị Trường</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Dự án</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Không gian sống</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Tư vấn</a>
+              </span>
+            </div>
+            <div class="content-box-category">
+              <article class="content-item-left">
+                <div class="art-content">
+                  <img src="./assets/stream-image4.jpg" alt="Stream Image 4" />
+                </div>
+                <div class="info-content">
+                  <h3 class="title-news">
+                    <a href=""
+                      >Không đăng ký sử dụng đất có thể bị phạt 10 triệu đồng</a
+                    >
+                  </h3>
+                  <p class="description">
+                    <a href="">
+                      Tổ chức, cá nhân sử dụng đất tại đô thị từ sau ngày
+                      5/1/2020 mà không đăng ký có thể bị phạt đến 10 triệu
+                      đồng.
+                    </a>
+                  </p>
+                </div>
+              </article>
+              <article class="content-item-right">
+                <h3 class="title-news">
+                  <a href="">Chung cư mới giá cao vẫn bán chạy</a>
+                </h3>
+                <p class="description">
+                  <a href="">
+                    HÀ NỘINhu cầu nhà ở lớn, trong khi cung vẫn thấp khiến một
+                    số dự án căn hộ sơ cấp "cháy hàng" dù giá hơn 60-70 triệu
+                    mỗi m2.
+                  </a>
+                </p>
+              </article>
+              <div class="content-bottom">
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href=""
+                      >Nhà phố có mặt tiền mở linh hoạt, cản nắng hướng Tây</a
+                    >
+                  </h3>
+                </article>
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href=""
+                      >Căn hộ 91 m2 cho người độc thân, phí cải tạo 650 triệu
+                      đồng</a
+                    >
+                  </h3>
+                </article>
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href="">Vườn hoa Đà Lạt có thể được đấu giá cho thuê</a>
+                  </h3>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="box-category">
+            <div class="title-box-category">
+              <h2 class="main-text">
+                <a href="">Thể thao</a>
+              </h2>
+              <span class="sub-text">
+                <a href="">Bóng đá</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Tennis</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Marathon</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Lịch thi đấu</a>
+              </span>
+              <span class="sub-text">
+                <a href="">V-League</a>
+              </span>
+              <span class="sub-text">
+                <a href="">VnExpress Marathon 2024</a>
+              </span>
+            </div>
+            <div class="content-box-category">
+              <article class="content-item-left">
+                <div class="art-content">
+                  <img src="./assets/stream-image3.jpg" alt="Stream Image 3" />
+                </div>
+                <div class="info-content">
+                  <h3 class="title-news">
+                    <a href=""
+                      >Tỷ phú Trần Đình Long: 5-10 năm tới Hòa Phát chỉ tập
+                      trung vào thép</a
+                    >
+                  </h3>
+                  <p class="description">
+                    <a href="">
+                      Ông Trần Đình Long nói không đổi chiến lược đa ngành nhưng
+                      thị trường thép đang quá khốc liệt nên phải tập ...
+                    </a>
+                  </p>
+                </div>
+              </article>
+              <article class="content-item-right">
+                <h3 class="title-news">
+                  <a href=""
+                    >Áp lực đơn hàng phải 'xanh' nhưng giá không tăng</a
+                  >
+                </h3>
+                <p class="description">
+                  <a href="">
+                    Áp lực về tiêu chí xanh, hay bền vững trong đơn hàng xuất
+                    khẩu ngày càng dày đặc trong khi doanh nghiệp ...
+                  </a>
+                </p>
+              </article>
+              <div class="content-bottom">
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href=""
+                      >Nhà phố có mặt tiền mở linh hoạt, cản nắng hướng Tây</a
+                    >
+                  </h3>
+                </article>
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href=""
+                      >Căn hộ 91 m2 cho người độc thân, phí cải tạo 650 triệu
+                      đồng</a
+                    >
+                  </h3>
+                </article>
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href="">Vườn hoa Đà Lạt có thể được đấu giá cho thuê</a>
+                  </h3>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="box-category">
+            <div class="title-box-category">
+              <h2 class="main-text">
+                <a href="">Giải trí</a>
+              </h2>
+              <span class="sub-text">
+                <a href="">Phim</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Nhạc</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Thời trang</a>
+              </span>
+            </div>
+            <div class="content-box-category">
+              <article class="content-item-left">
+                <div class="art-content">
+                  <img src="./assets/stream-image3.jpg" alt="Stream Image 3" />
+                </div>
+                <div class="info-content">
+                  <h3 class="title-news">
+                    <a href=""
+                      >Tỷ phú Trần Đình Long: 5-10 năm tới Hòa Phát chỉ tập
+                      trung vào thép</a
+                    >
+                  </h3>
+                  <p class="description">
+                    <a href="">
+                      Ông Trần Đình Long nói không đổi chiến lược đa ngành nhưng
+                      thị trường thép đang quá khốc liệt nên phải tập ...
+                    </a>
+                  </p>
+                </div>
+              </article>
+              <article class="content-item-right">
+                <h3 class="title-news">
+                  <a href=""
+                    >Áp lực đơn hàng phải 'xanh' nhưng giá không tăng</a
+                  >
+                </h3>
+                <p class="description">
+                  <a href="">
+                    Áp lực về tiêu chí xanh, hay bền vững trong đơn hàng xuất
+                    khẩu ngày càng dày đặc trong khi doanh nghiệp ...
+                  </a>
+                </p>
+              </article>
+              <div class="content-bottom">
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href=""
+                      >Nhà phố có mặt tiền mở linh hoạt, cản nắng hướng Tây</a
+                    >
+                  </h3>
+                </article>
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href=""
+                      >Căn hộ 91 m2 cho người độc thân, phí cải tạo 650 triệu
+                      đồng</a
+                    >
+                  </h3>
+                </article>
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href="">Vườn hoa Đà Lạt có thể được đấu giá cho thuê</a>
+                  </h3>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="box-category">
+            <div class="title-box-category">
+              <h2 class="main-text">
+                <a href="">Sức khỏe</a>
+              </h2>
+              <span class="sub-text">
+                <a href="">Tin tức</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Dinh dưỡng</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Khỏe đẹp</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Các đẹp</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Vaccine</a>
+              </span>
+            </div>
+            <div class="content-box-category has__borderBT">
+              <article class="content-item-left">
+                <div class="art-content">
+                  <img src="./assets/stream-image3.jpg" alt="Stream Image 3" />
+                </div>
+                <div class="info-content">
+                  <h3 class="title-news">
+                    <a href=""
+                      >Tỷ phú Trần Đình Long: 5-10 năm tới Hòa Phát chỉ tập
+                      trung vào thép</a
+                    >
+                  </h3>
+                  <p class="description">
+                    <a href="">
+                      Ông Trần Đình Long nói không đổi chiến lược đa ngành nhưng
+                      thị trường thép đang quá khốc liệt nên phải tập ...
+                    </a>
+                  </p>
+                </div>
+              </article>
+              <article class="content-item-right">
+                <h3 class="title-news">
+                  <a href=""
+                    >Áp lực đơn hàng phải 'xanh' nhưng giá không tăng</a
+                  >
+                </h3>
+                <p class="description">
+                  <a href="">
+                    Áp lực về tiêu chí xanh, hay bền vững trong đơn hàng xuất
+                    khẩu ngày càng dày đặc trong khi doanh nghiệp ...
+                  </a>
+                </p>
+              </article>
+              <div class="content-bottom">
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href=""
+                      >Nhà phố có mặt tiền mở linh hoạt, cản nắng hướng Tây</a
+                    >
+                  </h3>
+                </article>
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href=""
+                      >Căn hộ 91 m2 cho người độc thân, phí cải tạo 650 triệu
+                      đồng</a
+                    >
+                  </h3>
+                </article>
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href="">Vườn hoa Đà Lạt có thể được đấu giá cho thuê</a>
+                  </h3>
+                </article>
+              </div>
+            </div>
+            <div class="box__category-scroll">
+              <div class="inner__scroll width__default">
+                <span class="txt">Cẩm nan các bệnh:</span>
+                <div class="swiper__ctn">
+                  <div class="swiper__wrapper">
+                    <!-- Có nhiều slide tại đây -->
+                    <div class="swiper__slide">
+                      <a href="">Hô hấp</a>
+                    </div>
+                    <div class="swiper__slide">
+                      <a href="">Tai mũi họng</a>
+                    </div>
+                    <div class="swiper__slide">
+                      <a href="">Da liễu</a>
+                    </div>
+                    <div class="swiper__slide">
+                      <a href="">Tiêu hóa</a>
+                    </div>
+                    <div class="swiper__slide">
+                      <a href="">Cơ xương khớp</a>
+                    </div>
+                    <div class="swiper__slide">
+                      <a href="">Tim mạch</a>
+                    </div>
+                    <div class="swiper__slide">
+                      <a href="">Nội tiết</a>
+                    </div>
+                    <div class="swiper__slide">
+                      <a href="">Ung thư</a>
+                    </div>
+                    <div class="swiper__slide">
+                      <a href="">Dinh dưỡng</a>
+                    </div>
+                    <div class="swiper__slide">
+                      <a href="">Thần kinh</a>
+                    </div>
+                    <div class="swiper__slide">
+                      <a href="">Hiếm muộn</a>
+                    </div>
+                    <div class="swiper__slide">
+                      <a href="">Nhi - Sơ sinh</a>
+                    </div>
+                    <div class="swiper__slide">
+                      <a href="">Sản phụ khoa</a>
+                    </div>
+                    <div class="swiper__slide">
+                      <a href="">Tiết niệu - Nam học</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="button__wrap">
+                  <span class="btn__prev">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </span>
+                  <span class="btn__next">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="box-category">
+            <div class="title-box-category">
+              <h2 class="main-text">
+                <a href="">Đời sống</a>
+              </h2>
+              <span class="sub-text">
+                <a href="">Bài học sống</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Tổ ấm</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Tiêu dùng</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Cooking</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Mua sắm thông minh</a>
+              </span>
+            </div>
+            <div class="content-box-category">
+              <article class="content-item-left">
+                <div class="art-content">
+                  <img src="./assets/stream-image3.jpg" alt="Stream Image 3" />
+                </div>
+                <div class="info-content">
+                  <h3 class="title-news">
+                    <a href=""
+                      >Tỷ phú Trần Đình Long: 5-10 năm tới Hòa Phát chỉ tập
+                      trung vào thép</a
+                    >
+                  </h3>
+                  <p class="description">
+                    <a href="">
+                      Ông Trần Đình Long nói không đổi chiến lược đa ngành nhưng
+                      thị trường thép đang quá khốc liệt nên phải tập ...
+                    </a>
+                  </p>
+                </div>
+              </article>
+              <article class="content-item-right">
+                <h3 class="title-news">
+                  <a href=""
+                    >Áp lực đơn hàng phải 'xanh' nhưng giá không tăng</a
+                  >
+                </h3>
+                <p class="description">
+                  <a href="">
+                    Áp lực về tiêu chí xanh, hay bền vững trong đơn hàng xuất
+                    khẩu ngày càng dày đặc trong khi doanh nghiệp ...
+                  </a>
+                </p>
+              </article>
+              <div class="content-bottom">
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href=""
+                      >Nhà phố có mặt tiền mở linh hoạt, cản nắng hướng Tây</a
+                    >
+                  </h3>
+                </article>
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href=""
+                      >Căn hộ 91 m2 cho người độc thân, phí cải tạo 650 triệu
+                      đồng</a
+                    >
+                  </h3>
+                </article>
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href="">Vườn hoa Đà Lạt có thể được đấu giá cho thuê</a>
+                  </h3>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="box-category">
+            <div class="title-box-category">
+              <h2 class="main-text">
+                <a href="">Giáo dục</a>
+              </h2>
+              <span class="sub-text">
+                <a href="">Tin tức</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Tuyển sinh</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Chân dung</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Du học</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Giáo dục 4.0</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Trắc nghiệm</a>
+              </span>
+            </div>
+            <div class="content-box-category">
+              <article class="content-item-left">
+                <div class="art-content">
+                  <img src="./assets/stream-image3.jpg" alt="Stream Image 3" />
+                </div>
+                <div class="info-content">
+                  <h3 class="title-news">
+                    <a href=""
+                      >Tỷ phú Trần Đình Long: 5-10 năm tới Hòa Phát chỉ tập
+                      trung vào thép</a
+                    >
+                  </h3>
+                  <p class="description">
+                    <a href="">
+                      Ông Trần Đình Long nói không đổi chiến lược đa ngành nhưng
+                      thị trường thép đang quá khốc liệt nên phải tập ...
+                    </a>
+                  </p>
+                </div>
+              </article>
+              <article class="content-item-right">
+                <h3 class="title-news">
+                  <a href=""
+                    >Áp lực đơn hàng phải 'xanh' nhưng giá không tăng</a
+                  >
+                </h3>
+                <p class="description">
+                  <a href="">
+                    Áp lực về tiêu chí xanh, hay bền vững trong đơn hàng xuất
+                    khẩu ngày càng dày đặc trong khi doanh nghiệp ...
+                  </a>
+                </p>
+              </article>
+              <div class="content-bottom">
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href=""
+                      >Nhà phố có mặt tiền mở linh hoạt, cản nắng hướng Tây</a
+                    >
+                  </h3>
+                </article>
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href=""
+                      >Căn hộ 91 m2 cho người độc thân, phí cải tạo 650 triệu
+                      đồng</a
+                    >
+                  </h3>
+                </article>
+                <article class="content-bottom-item item-news">
+                  <h3 class="title-content">
+                    <a href="">Vườn hoa Đà Lạt có thể được đấu giá cho thuê</a>
+                  </h3>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="podcasts" class="podcasts">
+      <div class="podcasts__container space">
+        <div class="podcasts__inner">
+          <div class="podcasts__nav">
+            <h2 class="podcasts__title">
+              <a href="">Podcasts</a>
+            </h2>
+            <span class="podcats__subtitle">
+              <a href="">VnExpress hôm nay</a>
+            </span>
+            <span class="podcats__subtitle">
+              <a href="">Tâm điểm kinh tế</a>
+            </span>
+            <span class="podcats__subtitle">
+              <a href="">Tài chính cá nhân</a>
+            </span>
+            <span class="podcats__subtitle">
+              <a href="">Giải mã</a>
+            </span>
+            <span class="podcats__subtitle">
+              <a href="">Hộp đen</a>
+            </span>
+            <span class="podcats__subtitle">
+              <a href="">Thầm thì</a>
+            </span>
+          </div>
+          <div class="podcasts__list">
+            <div class="podcasts__list-left">
+              <article class="item-news podcasts__list--news">
+                <div class="podcasts__art">
+                  <img src="./assets/podcast1.jpg" alt="Podcasts Image 1" />
+                </div>
+                <h3 class="podcasts__list-title title-news">
+                  <a href="">Phụ nữ 'đạt đỉnh' quá nhanh có bất thường?</a>
+                </h3>
+                <p class="podcasts__list-description description">
+                  <a href=""
+                    >Một số nữ giới đạt khoái cảm quá nhanh do cấu trúc cơ thể
+                    đặc biệt hoặc đã bị chồng "bắt bài", theo bác sĩ.</a
+                  >
+                </p>
+              </article>
+            </div>
+            <div class="podcasts__list-right">
+              <article class="item-news podcasts__list--news">
+                <div class="podcasts__art">
+                  <img src="./assets/podcast2.jpg" alt="Podcasts Image 2" />
+                </div>
+                <h3 class="podcasts__list-title title-news">
+                  <a href="">Chữa lành có 'tự nhiễm'?</a>
+                </h3>
+                <p class="podcasts__list-description description">
+                  <a href=""
+                    >Thấy bạn bè "đua" chữa lành, Lan Anh, 23 tuổi, cũng chi 3
+                    triệu hàng tuần để healing vì thấy bản thân tổn thương bởi
+                    những mâu thuẫn thường ngày với bạn trai.</a
+                  >
+                </p>
+              </article>
+            </div>
+          </div>
+          <div class="podcasts__sub">
+            <article class="item-news">
+              <h3 class="title-news">
+                <a href="">
+                  <i class="fa-solid fa-headphones"></i>
+                  Điểm khác biệt trong não những kẻ sát nhân
+                </a>
+              </h3>
+              <p class="description">
+                <a href=""
+                  >Các nhà khoa học chỉ ra vỏ não trước trán của những tên tội
+                  phạm thường hoạt động yếu kém, dẫn đến việc họ không thể hãm
+                  phanh trước những ý nghĩ vi phạm đạo đức xã hội.</a
+                >
+              </p>
+            </article>
+            <article class="item-news">
+              <h3 class="title-news">
+                <a href="">
+                  <i class="fa-solid fa-headphones"></i>
+                  11 năm yêu xa từ cuộc gọi nhầm số
+                </a>
+              </h3>
+              <p class="description">
+                <a href=""
+                  >Biết đầu dây bên kia nhầm số, Trường Giang vẫn tiếp tục trò
+                  chuyện, cả hai dần nảy sinh tình cảm dù chưa thấy mặt nhau,
+                  bắt đầu hành trình yêu xa 11 năm.</a
+                >
+              </p>
+            </article>
+            <article class="item-news">
+              <h3 class="title-news">
+                <a href="">
+                  <i class="fa-solid fa-headphones"></i>
+                  Vì sao tội phạm thành công với chiêu giả công an?
+                </a>
+              </h3>
+              <p class="description">
+                <a href=""
+                  >'Rụng rời' chân tay khi nghe cuộc gọi tự xưng là công an với
+                  giọng đanh thép, bị tra khảo dồn dập, anh Thành Phú tự tay
+                  chuyển tiền cho kẻ gian trong 15 phút.</a
+                >
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="topics" class="topics">
+      <div class="topics__container topics--animated">
+        <div class="topics__slide">
+          <span class="topics__text">
+            <i class="fa-solid fa-arrow-trend-up"></i>
+            Chủ đề
+          </span>
+          <!-- <div></div>
+                <div></div> -->
+          <div class="topics__swiper">
+            <div class="swiper__container">
+              <article class="swiper__slide item-news">
+                <h3 class="title-news">
+                  <a href="">70 năm chiến thắng Điện Biên Phủ</a>
+                </h3>
+              </article>
+              <article class="swiper__slide item-news">
+                <h3 class="title-news">
+                  <a href="">Thời tiết nắng nóng, khô hạn năm 2024</a>
+                </h3>
+              </article>
+              <article class="swiper__slide item-news">
+                <h3 class="title-news">
+                  <a href="">Vụ án shark Thủy</a>
+                </h3>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="clear: both"></section>
+    <section class="technologys">
+      <div class="technologys__container">
+        <div class="technologys__title">
+          <h2>Khoa học - Công nghệ</h2>
+        </div>
+        <div class="technologys__content">
+          <div class="technologys__category title-box-category">
+            <h2 class="main-text technologys__text">
+              <a href="">Khoa học</a>
+            </h2>
+            <span class="sub-text">
+              <a href="">Việt Nam</a>
+            </span>
+            <span class="sub-text">
+              <a href="">Chỉ số PII</a>
+            </span>
+            <span class="sub-text">
+              <a href="">Phát minh</a>
+            </span>
+            <span class="sub-text">
+              <a href="">Ứng dụng</a>
+            </span>
+            <span class="sub-text">
+              <a href="">Thế giới tự nhiên</a>
+            </span>
+            <span class="sub-text">
+              <a href="">Sáng kiến khoa học 2024</a>
+            </span>
+          </div>
+          <div class="technologys__article has__borderBT">
+            <div class="article__box--main">
+              <article class="item-news">
+                <div class="article__art">
+                  <img
+                    src="./assets/technology-image.jpg"
+                    alt="Technology Image"
+                  />
+                </div>
+                <div class="article__title">
+                  <h3 class="title-news">
+                    <a href=""
+                      >Bí quyết giúp gấu nước có khả năng chống bức xạ</a
+                    >
+                  </h3>
+                  <p class="description article-desc">
+                    <a href="">
+                      Các nhà nghiên cứu nhận thấy gấu nước có khả năng sửa chữa
+                      ADN bị phá hủy bởi bức xạ gamma hoặc tia X.
+                    </a>
+                  </p>
+                </div>
+              </article>
+            </div>
+            <div class="article__box--sub1">
+              <article class="item-news has__borderBT">
+                <div class="art">
+                  <img
+                    src="./assets/technology-image2.jpg"
+                    alt="Technology Image"
+                  />
+                </div>
+                <h3 class="title-news">
+                  <a href=""
+                    >Cuộc đua 'cứu' hàng nghìn mảnh thiên thạch khỏi biến đổi
+                    khí hậu</a
+                  >
+                </h3>
+              </article>
+              <article class="item-news">
+                <div class="art">
+                  <img
+                    src="./assets/technology-image3.png"
+                    alt="Technology Image"
+                  />
+                </div>
+                <h3 class="title-news">
+                  <a href=""
+                    >Nhà máy năng lượng sạch lớn nhất thế giới hoạt động</a
+                  >
+                </h3>
+              </article>
+            </div>
+            <div class="article__box--sub2">
+              <article class="item-news has__borderBT">
+                <div class="art">
+                  <img src="./assets/technology-image4.jpg" alt="" />
+                </div>
+                <h3 class="title-news">
+                  <a href="">'Cứu' sâm cau bằng giống nuôi cấy mô</a>
+                </h3>
+              </article>
+              <article class="item-news has__borderBT">
+                <div class="art">
+                  <img src="./assets/technology-image7.jpg" alt="" />
+                </div>
+                <h3 class="title-news">
+                  <a href="">Hầm trú ẩn có thể chứa cả Quốc hội Mỹ</a>
+                </h3>
+              </article>
+              <article class="item-news has__borderBT">
+                <div class="art">
+                  <img src="./assets/technology-image5.jpg" alt="" />
+                </div>
+                <h3 class="title-news">
+                  <a href="">Sai lầm khiến rắn mamba đen rơi vào hàm cá sấu</a>
+                </h3>
+              </article>
+              <article class="item-news">
+                <div class="art">
+                  <img src="./assets/technology-image6.jpg" alt="" />
+                </div>
+                <h3 class="title-news">
+                  <a href="">Nhiệm vụ bí mật giúp phát hiện xác tàu Titanic</a>
+                </h3>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="technologys__content">
+          <div class="technologys__category title-box-category">
+            <h2 class="main-text technologys__text">
+              <a href="">Số hóa</a>
+            </h2>
+            <span class="sub-text">
+              <a href="">Công nghệ</a>
+            </span>
+            <span class="sub-text">
+              <a href="">Sản phẩm</a>
+            </span>
+            <span class="sub-text">
+              <a href="">Blockchain</a>
+            </span>
+            <span class="sub-text">
+              <a href="">Kinh nghiệm</a>
+            </span>
+            <span class="sub-text">
+              <a href="">GameVerse 2024</a>
+            </span>
+          </div>
+          <div class="technologys__article">
+            <div class="article__box--main">
+              <article class="item-news">
+                <div class="article__art">
+                  <img
+                    src="./assets/technology-image8.jpg"
+                    alt="Technology Image"
+                  />
+                </div>
+                <div class="article__title">
+                  <h3 class="title-news">
+                    <a href=""
+                      >Nghị sĩ Mỹ tức giận vì laptop Huawei dùng chip AI
+                      Intel</a
+                    >
+                  </h3>
+                  <p class="description article-desc">
+                    <a href="">
+                      Một số nghị sĩ chỉ trích chính quyền Tổng thống Joe Biden
+                      đã "bật đèn xanh" để Huawei có được chip Core Ultra 9 mới
+                      nhất của Intel.
+                    </a>
+                  </p>
+                </div>
+              </article>
+            </div>
+            <div class="article__box--sub1">
+              <article class="item-news has__borderBT">
+                <div class="art">
+                  <img
+                    src="./assets/technology-image9.jpg"
+                    alt="Technology Image"
+                  />
+                </div>
+                <h3 class="title-news">
+                  <a href="">Hai phòng lắp chung một máy lạnh có khả thi?</a>
+                </h3>
+              </article>
+              <article class="item-news">
+                <div class="art">
+                  <img
+                    src="./assets/technology-image10.png"
+                    alt="Technology Image"
+                  />
+                </div>
+                <h3 class="title-news">
+                  <a href=""
+                    >Người trẻ Đông Nam Á tìm đến 'thủ phủ bán dẫn' Đài Loan</a
+                  >
+                </h3>
+              </article>
+            </div>
+            <div class="article__box--sub2">
+              <article class="item-news has__borderBT">
+                <div class="art">
+                  <img src="./assets/small-img1.jpg" alt="" />
+                </div>
+                <h3 class="title-news">
+                  <a href="">5 tai nghe Open Ear nổi bật mới bán</a>
+                </h3>
+              </article>
+              <article class="item-news has__borderBT">
+                <div class="art">
+                  <img src="./assets/small-img2.jpg" alt="" />
+                </div>
+                <h3 class="title-news">
+                  <a href=""
+                    >AI Pin - thiết bị tương lai nhưng chưa hoàn thiện</a
+                  >
+                </h3>
+              </article>
+              <article class="item-news has__borderBT">
+                <div class="art">
+                  <img src="./assets/small-img3.jpg" alt="" />
+                </div>
+                <h3 class="title-news">
+                  <a href=""
+                    >Sắp có tuyến cáp Internet nối thẳng Việt Nam - Singapore</a
+                  >
+                </h3>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="videos">
+      <div class="videos__container">
+        <div class="videos__inner">
+          <div class="title-box-category">
+            <h2 class="main-text videos__title">
+              <a href="">Video</a>
+            </h2>
+            <span class="sub-text">
+              <a href="">Thời sự</a>
+            </span>
+            <span class="sub-text">
+              <a href="">Nhịp sống</a>
+            </span>
+            <span class="sub-text">
+              <a href="">Food</a>
+            </span>
+            <span class="sub-text">
+              <a href="">Camera An ninh</a>
+            </span>
+          </div>
+          <div class="videos__box">
+            <div class="videos__list-main">
+              <div class="video">
+                <span class="play__icon">
+                  <i class="fa-solid fa-play"></i>
+                </span>
+                <img src="./assets/video-img.jpg" alt="Video Image" />
+              </div>
+              <div class="item-news">
+                <h4 class="title-news">
+                  <a href="">
+                    Thanh niên giấu súng trong cốp xe để phòng thân
+                  </a>
+                </h4>
+              </div>
+            </div>
+            <div class="videos__side">
+              <div class="video__slide-box">
+                <div class="video__content">
+                  <article class="item-news video__content-item">
+                    <div class="video__thumb">
+                      <img src="./assets/video-img.jpg" alt="" />
+                      <span class="duration__video">01:24</span>
+                    </div>
+                    <h3 class="title-news">
+                      <a href="">
+                        Thanh niên giấu súng trong cốp xe để phòng thân
+                      </a>
+                    </h3>
+                    <p class="meta-news">
+                      <span class="video__time">1h trước</span>
+                      <a href="">Pháp luật</a>
+                    </p>
+                  </article>
+                  <article class="item-news video__content-item">
+                    <div class="video__thumb">
+                      <img src="./assets/video-img3.jpg" alt="" />
+                      <span class="duration__video">02:24</span>
+                    </div>
+                    <h3 class="title-news">
+                      <a href="">
+                        Du khách hào hứng xem 200 drone xếp hình thiền sư Đạo
+                        Hạnh
+                      </a>
+                    </h3>
+                    <p class="meta-news">
+                      <span class="video__time">1h trước</span>
+                      <a href="">Du lịch</a>
+                    </p>
+                  </article>
+                  <article class="item-news video__content-item">
+                    <div class="video__thumb">
+                      <img src="./assets/video-img2.jpg" alt="" />
+                      <span class="duration__video">01:24</span>
+                    </div>
+                    <h3 class="title-news">
+                      <a href=""> Giấu hàng chục bánh heroin dưới sàn xe </a>
+                    </h3>
+                    <p class="meta-news">
+                      <span class="video__time">1h trước</span>
+                      <a href="">Pháp luật</a>
+                    </p>
+                  </article>
+                  <article class="item-news video__content-item">
+                    <div class="video__thumb">
+                      <img src="./assets/video-img.jpg" alt="" />
+                      <span class="duration__video">01:24</span>
+                    </div>
+                    <h3 class="title-news">
+                      <a href=""> Minh Tú: 'Chồng là định mệnh đời tôi' </a>
+                    </h3>
+                    <p class="meta-news">
+                      <span class="video__time">1h trước</span>
+                      <a href="">Trong nước</a>
+                    </p>
+                  </article>
+                  <article class="item-news video__content-item">
+                    <div class="video__thumb">
+                      <img src="./assets/video-img4.jpg" alt="" />
+                      <span class="duration__video">01:24</span>
+                    </div>
+                    <h3 class="title-news">
+                      <a href="">
+                        Chực chờ ngày đêm xin nước ngọt ở miền Tây
+                      </a>
+                    </h3>
+                    <p class="meta-news">
+                      <span class="video__time">1h trước</span>
+                      <a href="">Thời sự</a>
+                    </p>
+                  </article>
+                  <article class="item-news video__content-item">
+                    <div class="video__thumb">
+                      <img src="./assets/video-img.jpg" alt="" />
+                      <span class="duration__video">01:24</span>
+                    </div>
+                    <h3 class="title-news">
+                      <a href=""> Hiện trường vụ cháy 40 ha rừng ở Cà Mau </a>
+                    </h3>
+                    <p class="meta-news">
+                      <span class="video__time">1h trước</span>
+                      <a href="">Thời sự</a>
+                    </p>
+                  </article>
+                  <article class="item-news video__content-item">
+                    <div class="video__thumb">
+                      <img src="./assets/video-img.jpg" alt="" />
+                      <span class="duration__video">01:24</span>
+                    </div>
+                    <h3 class="title-news">
+                      <a href=""> Người dân khổ vì làm đường gây bụi mịt mù </a>
+                    </h3>
+                    <p class="meta-news">
+                      <span class="video__time">1h trước</span>
+                      <a href="">Thời sự</a>
+                    </p>
+                  </article>
+                  <article class="item-news video__content-item">
+                    <div class="video__thumb">
+                      <img src="./assets/video-img2.jpg" alt="" />
+                      <span class="duration__video">01:24</span>
+                    </div>
+                    <h3 class="title-news">
+                      <a href="">
+                        Thu giữ lô tân dược 7 tỷ đồng tại sân bay Tân Sơn Nhất
+                      </a>
+                    </h3>
+                    <p class="meta-news">
+                      <span class="video__time">1h trước</span>
+                      <a href="">Pháp luật</a>
+                    </p>
+                  </article>
+                  <article class="item-news video__content-item">
+                    <div class="video__thumb">
+                      <img src="./assets/video-img3.jpg" alt="" />
+                      <span class="duration__video">01:24</span>
+                    </div>
+                    <h3 class="title-news">
+                      <a href=""> Sống chật vật ở ven kênh TP HCM </a>
+                    </h3>
+                    <p class="meta-news">
+                      <span class="video__time">1h trước</span>
+                      <a href="">Pháp luật</a>
+                    </p>
+                  </article>
+                  <article class="item-news video__content-item">
+                    <div class="video__thumb">
+                      <img src="./assets/video-img4.jpg" alt="" />
+                      <span class="duration__video">01:24</span>
+                    </div>
+                    <h3 class="title-news">
+                      <a href="">
+                        Minh Tú: 'Ba dặn tôi biết nhường nhịn trong hôn nhân'
+                      </a>
+                    </h3>
+                    <p class="meta-news">
+                      <span class="video__time">1h trước</span>
+                      <a href="">Trong nước</a>
+                    </p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="news">
+      <div class="news__container">
+        <div class="news__inner">
+          <div class="arc__item">
+            <div class="title-box-category news__list">
+              <h2 class="main-text videos__title">
+                <a href="">Thời sự</a>
+              </h2>
+              <span class="sub-text">
+                <a href="">Chính trị</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Lao động - việc làm</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Dân sinh</a>
+              </span>
+            </div>
+            <div class="arc__item-main">
+              <article class="main__arc item-news">
+                <div class="art">
+                  <img src="./assets/news-img.jpg" alt="News Image" />
+                </div>
+                <div class="content">
+                  <h3 class="title-news">
+                    <a href="">
+                      Hai bé gái bị xe goòng tông tử vong khi qua đường sắt
+                    </a>
+                  </h3>
+                  <p class="description">
+                    Chở nhau bằng xe đạp điện băng qua đường sắt, hai chị em 12
+                    và 4 tuổi bị xe goòng của ngành đường sắt tông tử vong,
+                    chiều 13/4.
+                  </p>
+                </div>
+              </article>
+              <div class="width__default">
+                <article>
+                  <h3 class="title-news">
+                    <a href=""
+                      >Doanh nghiệp Nhật xây nhà máy 200 triệu USD tại Hòa
+                      Bình</a
+                    >
+                  </h3>
+                  <p class="description">
+                    Tập đoàn Meiko Electronics khởi công xây dựng nhà máy sản
+                    xuất bảng mạch in điện tử với tổng vốn ban đầu 200 triệu USD
+                    và sẽ tăng lên 500 triệu USD.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="arc__item">
+            <div class="title-box-category news__list">
+              <h2 class="main-text videos__title">
+                <a href="">Thời sự</a>
+              </h2>
+              <span class="sub-text">
+                <a href="">Chính trị</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Lao động - việc làm</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Dân sinh</a>
+              </span>
+            </div>
+            <div class="arc__item-main">
+              <article class="main__arc item-news">
+                <div class="art">
+                  <img src="./assets/news-img2.jpg" alt="News Image" />
+                </div>
+                <div class="content">
+                  <h3 class="title-news">
+                    <a href=""> Nguy cơ Ukraine sụp đổ phòng tuyến </a>
+                  </h3>
+                  <p class="description">
+                    Cựu tư lệnh quân đội Anh nhận định Ukraine có "nguy cơ
+                    nghiêm trọng" sụp đổ phòng tuyến và hứng thất bại trước đà
+                    tiến trên nhiều hướng của Nga.
+                  </p>
+                </div>
+              </article>
+              <div class="width__default">
+                <article>
+                  <h3 class="title-news">
+                    <a href=""
+                      >Thủ tướng Thái Lan bắn súng nước trên phố trong lễ hội
+                      Songkran</a
+                    >
+                  </h3>
+                  <p class="description">
+                    Thủ tướng Thái Lan đến tỉnh Prachuap Khiri Khan dự lễ hội té
+                    nước Songkran, cầm súng nước hòa mình cùng người dân vào
+                    không khí hội hè.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div class="arc__item">
+            <div class="title-box-category news__list">
+              <h2 class="main-text videos__title">
+                <a href="">Thời sự</a>
+              </h2>
+              <span class="sub-text">
+                <a href="">Chính trị</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Lao động - việc làm</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Dân sinh</a>
+              </span>
+            </div>
+            <div class="arc__item-main">
+              <article class="main__arc item-news">
+                <div class="art">
+                  <img src="./assets/news-img.jpg" alt="News Image" />
+                </div>
+                <div class="content">
+                  <h3 class="title-news">
+                    <a href="">
+                      Trữ tinh trùng của người tình, bí mật sinh con để đòi thừa
+                      kế
+                    </a>
+                  </h3>
+                  <p class="description">
+                    Ling quan hệ ngoài luồng với người có gia đình, bí mật trữ
+                    tinh trùng rồi khi anh này chết đã dùng để sinh con trai và
+                    kiện đòi chia thừa kế.
+                  </p>
+                </div>
+              </article>
+              <div class="width__default">
+                <article>
+                  <h3 class="title-news">
+                    <a href=""
+                      >Siêu thị Australia gắn định vị cho thịt để chống trộm
+                      cắp</a
+                    >
+                  </h3>
+                  <p class="description">
+                    Chuỗi siêu thị Drakes bắt đầu thử nghiệm lắp đặt thiết bị
+                    định vị GPS trên các loại thịt đắt tiền nhằm giảm tổn thất
+                    do trộm cắp trong cửa hàng.
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="line"></div>
+      </div>
+    </section>
+    <section class="travel section">
+      <section class="travel__section1 width__default">
+        <div
+          class="travel__section1-container"
+          style="padding-bottom: 0; margin-bottom: 0"
+        >
+          <div class="travel content">
+            <div class="travel__category title-box-category">
+              <h2 class="main-text">
+                <a href="">Du lịch</a>
+              </h2>
+              <span class="sub-text">
+                <a href="">Điểm đến</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Ẩm thực</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Dấu chân</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Tư vấn</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Cẩm nang</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Ảnh</a>
+              </span>
+            </div>
+            <div class="technologys__article has__borderBT">
+              <div class="article__box--main">
+                <article class="item-news">
+                  <div class="article__art">
+                    <img src="./assets/travel-img.jpg" alt="Technology Image" />
+                  </div>
+                  <div class="article__title">
+                    <h3 class="title-news">
+                      <a href=""
+                        >Quán cà phê trên tầng thượng nhà máy bỏ hoang giữa Sài
+                        Gòn</a
+                      >
+                    </h3>
+                    <p class="description article-desc">
+                      <a href="">
+                        Quán cà phê xây dựng trên tầng thượng từng bỏ hoang của
+                        một nhà máy cũ ở quận 3, thiết kế theo phong cách Đà
+                        Lạt, thu hút hàng nghìn lượt khách mỗi ngày.
+                      </a>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="article__box--sub1">
+                <article class="item-news has__borderBT">
+                  <div class="art">
+                    <img
+                      src="./assets/travel-img2.jpg"
+                      alt="Technology Image"
+                    />
+                  </div>
+                  <h3 class="title-news">
+                    <a href="">Loài hoa nào đặc trưng cho Hà Nội tháng 4?</a>
+                  </h3>
+                </article>
+                <article class="item-news">
+                  <div class="art">
+                    <img
+                      src="./assets/travel-img3.jpg"
+                      alt="Technology Image"
+                    />
+                  </div>
+                  <h3 class="title-news">
+                    <a href=""
+                      >Food tour Hong Kong từ bình dân đến sang chảnh</a
+                    >
+                  </h3>
+                </article>
+              </div>
+              <div class="article__box--sub2">
+                <article class="item-news has__borderBT">
+                  <div class="art">
+                    <img src="./assets/travel-img4.jpg" alt="" />
+                  </div>
+                  <h3 class="title-news">
+                    <a href=""
+                      >Khách Việt xúng xính Hanbok tại lễ hội văn hoá Hàn
+                      Quốc</a
+                    >
+                  </h3>
+                </article>
+                <article class="item-news has__borderBT">
+                  <div class="art">
+                    <img src="./assets/travel-img5.jpg" alt="" />
+                  </div>
+                  <h3 class="title-news">
+                    <a href=""
+                      >Combo ghế và giường tương lai của du lịch hàng không</a
+                    >
+                  </h3>
+                </article>
+                <article class="item-news has__borderBT">
+                  <div class="art">
+                    <img src="./assets/travel-img3.jpg" alt="" />
+                  </div>
+                  <h3 class="title-news">
+                    <a href=""
+                      >Khách Trung Quốc bị nhốt vì không chịu mua sắm</a
+                    >
+                  </h3>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="travel__section2 width__default">
+        <div
+          class="travel__section2-container"
+          style="padding-top: 0; margin-top: 0"
+        >
+          <div class="technologys__content travel content">
+            <div class="travel__category title-box-category">
+              <h2 class="main-text">
+                <a href="">Xe</a>
+              </h2>
+              <span class="sub-text">
+                <a href="">Thị trường</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Car Award 2023</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Diễn dàn</a>
+              </span>
+              <span class="sub-text">
+                <a href="">V-Car</a>
+              </span>
+              <span class="sub-text">
+                <a href="">V-Bike</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Cầm lái</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Thi bằng lái</a>
+              </span>
+              <span class="sub-text">
+                <a href="">Mua bán</a>
+              </span>
+            </div>
+            <div class="technologys__article has__borderBT">
+              <div class="article__box--main">
+                <article class="item-news">
+                  <div class="article__art">
+                    <img
+                      src="./assets/travel-img7.jpg"
+                      alt="Technology Image"
+                    />
+                  </div>
+                  <div class="article__title">
+                    <h3 class="title-news">
+                      <a href=""
+                        >Tesla bị kiện vì bé hai tuổi khởi động ôtô đâm trúng
+                        mẹ</a
+                      >
+                    </h3>
+                    <p class="description article-desc">
+                      <a href="">
+                        Trong khi mẹ đang mang bầu của bé trai 2 tuổi tố tai nạn
+                        là lỗi thiết kế, Tesla nói đó là sự bất cẩn.
+                      </a>
+                    </p>
+                  </div>
+                </article>
+              </div>
+              <div class="article__box--sub1">
+                <article class="item-news has__borderBT">
+                  <div class="art">
+                    <img
+                      src="./assets/travel-img9.jpg"
+                      alt="Technology Image"
+                    />
+                  </div>
+                  <h3 class="title-news">
+                    <a href="">5 xe gầm thấp bán nhiều nhất quý I</a>
+                  </h3>
+                </article>
+                <article class="item-news">
+                  <div class="art">
+                    <img
+                      src="./assets/travel-img6.jpg"
+                      alt="Technology Image"
+                    />
+                  </div>
+                  <h3 class="title-news">
+                    <a href=""
+                      >Những mẫu xe động cơ V12 còn lại trên thế giới</a
+                    >
+                  </h3>
+                </article>
+              </div>
+              <div class="article__box--sub2">
+                <div class="search__box width__default">
+                  <ul class="tabs">
+                    <li class="tabs__v-car active">
+                      <a href="javascript:;">
+                        <i class="fa-solid fa-car"></i>
+                        V-Car
+                      </a>
+                    </li>
+                    <li class="tabs__v-bike">
+                      <a href="javascript:;">
+                        <i class="fa-solid fa-bicycle"></i>
+                        V-Bike
+                      </a>
+                    </li>
+                  </ul>
+                  <div class="form__search">
+                    <input type="text" class="input__search" />
+                    <button type="submit" class="btn__search">
+                      <i class="fa-solid fa-search"></i>
+                    </button>
+                  </div>
+                </div>
+                <article class="item-news has__borderBT">
+                  <div class="art">
+                    <img src="./assets/travel-img5.jpg" alt="" />
+                  </div>
+                  <h3 class="title-news">
+                    <a href="">400 triệu mua Honda City hay Toyota Vios?</a>
+                  </h3>
+                </article>
+                <article class="item-news has__borderBT">
+                  <div class="art">
+                    <img src="./assets/travel-img9.jpg" alt="" />
+                  </div>
+                  <h3 class="title-news">
+                    <a href="">Tài xế Việt thử thách đường địa hình</a>
+                  </h3>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <section class="section date__section">
+      <div class="container date__container">
+        <div class="left-col">
+          <div class="story__box">
+            <div class="title-box-category">
+              <h2 class="main-text" style="font-size: 18px">
+                <a href="">Tâm sự</a>
+              </h2>
+              <span class="sub-text">
+                <a href="">Hẹn hò</a>
+              </span>
+            </div>
+            <div class="width__default story__flex">
+              <article class="item-news story__arc">
+                <h3
+                  class="title-news"
+                  style="font-weight: normal; font-size: 20px"
+                >
+                  <a href="">
+                    <i class="fa-solid fa-heart"></i>
+                    Lương tháng 92 triệu vẫn bị vợ bỏ
+                  </a>
+                </h3>
+                <p class="description">
+                  <a href="">
+                    Vợ cũ luôn yêu cầu tôi phải nâng cấp bản thân, phải làm vị
+                    trí cao hơn, so sánh tôi với những người khác.
+                  </a>
+                </p>
+                <p class="description">
+                  <a href="">
+                    Vợ không nên là balô trên lưng chồngNăm tôi 25 tuổi, vợ
+                    chồng thất nghiệp, có một con, sống bám bố mẹ vợ, ăn cơm độn
+                    khoai mì cũng ổn. Đến năm tôi 43 tuổi, làm công nhân, một vợ
+                    ba con đi xe đạp, nhà tôi vẫn không nợ nần gì. Nhờ thế mà 64
+                    tuổi tôi trả xong nhà và xe hơi, tiền hưu sống vẫn dư. Tiền
+                    kiếm...
+                  </a>
+                </p>
+              </article>
+              <div class="sub__article">
+                <article class="item-news">
+                  <h3 class="title-news">
+                    <a href="">
+                      <i class="fa-solid fa-heart"></i>
+                      Chồng hơi tí lại về mách mẹ
+                    </a>
+                  </h3>
+                  <p class="description">
+                    <a href="">
+                      Chúng tôi đăng ký nhưng chưa tổ chức cưới, giờ tôi bị hủy
+                      hôn trước ngày cưới vì anh hay mách mẹ nên bác muốn hai
+                      đứa chia tay.
+                    </a>
+                  </p>
+                </article>
+                <article class="item-news">
+                  <h3 class="title-news">
+                    <a href="">
+                      <i class="fa-solid fa-heart"></i>
+                      Vợ từ chối ly dị vì không tìm được ai kiếm tiền hơn tôi
+                    </a>
+                  </h3>
+                  <p class="description">
+                    <a href="">
+                      Tôi 33 tuổi, vợ 28 tuổi, cưới sáu năm; mỗi tháng tôi đưa
+                      vợ 20-25 triệu đồng, tháng nào có thưởng sẽ đưa hơn.
+                    </a>
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+          <div style="clear: both"></div>
+          <div class="comment__box">
+            <div class="inner__comment">
+              <div class="comment__item">
+                <div class="comment__category title-box-category">
+                  <h2 class="main-text" style="font-size: 18px">
+                    <a href="">Ý kiến</a>
+                  </h2>
+                </div>
+                <div class="comment__content">
+                  <article class="main__arc item-news">
+                    <div class="art">
+                      <img src="./assets/news-img.jpg" alt="News Image" />
+                    </div>
+                    <div class="content">
+                      <h3 class="title-news">
+                        <a href="">
+                          Hai bé gái bị xe goòng tông tử vong khi qua đường sắt
+                        </a>
+                      </h3>
+                      <p class="description">
+                        Chở nhau bằng xe đạp điện băng qua đường sắt, hai chị em
+                        12 và 4 tuổi bị xe goòng của ngành đường sắt tông tử
+                        vong, chiều 13/4.
+                      </p>
+                    </div>
+                  </article>
+                  <div class="width__default main__arc">
+                    <article>
+                      <h3 class="title-news">
+                        <a href=""
+                          >Doanh nghiệp Nhật xây nhà máy 200 triệu USD tại Hòa
+                          Bình</a
+                        >
+                      </h3>
+                      <p class="description">
+                        Tập đoàn Meiko Electronics khởi công xây dựng nhà máy
+                        sản xuất bảng mạch in điện tử với tổng vốn ban đầu 200
+                        triệu USD và sẽ tăng lên 500 triệu USD.
+                      </p>
+                    </article>
+                  </div>
+                  <div class="width__default">
+                    <article>
+                      <h3 class="title-news">
+                        <a href=""
+                          >Doanh nghiệp Nhật xây nhà máy 200 triệu USD tại Hòa
+                          Bình</a
+                        >
+                      </h3>
+                      <p class="description">
+                        Tập đoàn Meiko Electronics khởi công xây dựng nhà máy
+                        sản xuất bảng mạch in điện tử với tổng vốn ban đầu 200
+                        triệu USD và sẽ tăng lên 500 triệu USD.
+                      </p>
+                    </article>
+                  </div>
+                </div>
+              </div>
+              <div class="comment__item">
+                <div class="comment__category title-box-category">
+                  <h2 class="main-text" style="font-size: 18px">
+                    <a href="">Thư giãn</a>
+                  </h2>
+                  <span class="sub-text">
+                    <a href="">Cười</a>
+                  </span>
+                  <span class="sub-text">
+                    <a href="">Đố vui</a>
+                  </span>
+                  <span class="sub-text">
+                    <a href="">Chuyện lạ</a>
+                  </span>
+                  <span class="sub-text">
+                    <a href="">Crossword</a>
+                  </span>
+                </div>
+                <div class="comment__content">
+                  <article class="main__arc item-news">
+                    <div class="art">
+                      <img src="./assets/comment-img.jpg" alt="News Image" />
+                    </div>
+                    <div class="content">
+                      <h3 class="title-news">
+                        <a href="">
+                          Dòng họ nào có nhiều người làm vua nhất Việt Nam?
+                        </a>
+                      </h3>
+                      <p class="description">
+                        Tính từ năm 938 đến 1945, dòng họ này có 31 người làm
+                        vua, nhiều nhất trong lịch sử phong kiến Việt Nam.
+                      </p>
+                    </div>
+                  </article>
+                  <div class="width__default main__arc">
+                    <article>
+                      <h3 class="title-news">
+                        <a href=""
+                          >Chồng 'ăn gan hùm' vì lừa vợ bôi nhọ nồi lên mặt</a
+                        >
+                      </h3>
+                      <p class="description">
+                        Ông chồng can đảm và liều lĩnh nhất năm là đây khi lừa
+                        vợ tự bôi đầy nhọ lên mặt.
+                      </p>
+                    </article>
+                  </div>
+                  <div class="width__default">
+                    <article>
+                      <h3 class="title-news">
+                        <a href="">Đố bạn biết đây là tỉnh nào của Việt Nam?</a>
+                      </h3>
+                      <p class="description">
+                        Chỉ cần bám sát vào gợi ý thì bạn sẽ vượt qua câu hỏi
+                        đoán tên tỉnh thành này một cách dễ dàng.
+                      </p>
+                    </article>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-col">
+          <div class="slide__box">
+            <div class="ebank__box">
+              <div class="ebank__content">
+                <div class="ebank__category title-box-category">
+                  <h4 class="main-text" style="font-size: 14px">
+                    <a href="">Ebank</a>
+                  </h4>
+                  <div class="left__btn">
+                    <i class="fa-solid fa-arrow-left"></i>
+                  </div>
+                  <div class="right__btn">
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                </div>
+                <div class="ebank__list">
+                  <div class="swiper__container">
+                    <div class="swiper__wrapper">
+                      <article class="item-news">
+                        <div class="art">
+                          <img src="./assets/ebank-img.jpg" alt="" />
+                        </div>
+                        <h4 class="title-news" style="font-size: 14px">
+                          <a href=""
+                            >Ba giải pháp số của Vietcombank nhận giải thưởng
+                            Sao Khuê 2024</a
+                          >
+                        </h4>
+                      </article>
+                      <article class="item-news">
+                        <div class="art">
+                          <img src="./assets/ebank-img2.jpg" alt="" />
+                        </div>
+                        <h4 class="title-news" style="font-size: 14px">
+                          <a href="">MB nhận ba giải thưởng Sao Khuê 2024</a>
+                        </h4>
+                      </article>
+                      <article class="item-news">
+                        <div class="art">
+                          <img src="./assets/ebank-img3.jpg" alt="" />
+                        </div>
+                        <h4 class="title-news" style="font-size: 14px">
+                          <a href=""
+                            >Đề nghị Bộ Công an làm rõ trách nhiệm của kiểm toán
+                            vụ SCB</a
+                          >
+                        </h4>
+                      </article>
+                    </div>
+                    <div class="swiper__wrapper">
+                      <article class="item-news">
+                        <div class="art">
+                          <img src="./assets/ebank-img.jpg" alt="" />
+                        </div>
+                        <h4 class="title-news" style="font-size: 14px">
+                          <a href=""
+                            >Ba giải pháp số của Vietcombank nhận giải thưởng
+                            Sao Khuê 2024</a
+                          >
+                        </h4>
+                      </article>
+                      <article class="item-news">
+                        <div class="art">
+                          <img src="./assets/ebank-img2.jpg" alt="" />
+                        </div>
+                        <h4 class="title-news" style="font-size: 14px">
+                          <a href="">MB nhận ba giải thưởng Sao Khuê 2024</a>
+                        </h4>
+                      </article>
+                      <article class="item-news">
+                        <div class="art">
+                          <img src="./assets/ebank-img3.jpg" alt="" />
+                        </div>
+                        <h4 class="title-news" style="font-size: 14px">
+                          <a href=""
+                            >Đề nghị Bộ Công an làm rõ trách nhiệm của kiểm toán
+                            vụ SCB</a
+                          >
+                        </h4>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- <section class="width__default images__section">
+        <div class="container has__mp">
+            <div class="images__category title-box-category">
+                <h2 class="main-text images__text">
+                    <a href="">Ảnh</a>
+                </h2>
+            </div>
+            <div class="images__content width__default">
+                <div class="image__thumb">
+                    <div class="inner__thumb">
+                        <div class="swiper__container">
+                            <div class="swiper__wrapper">
+                               
+                                <div class="swiper__slide ">
+                                    <div class="image__item art">
+                                        <img src="./assets/i-image.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="image__p swiper__container"></div>
+            </div>
+        </div>
+    </section> -->
+    <section class="something__section width__default">
+      <div class="spotlight__section container">
+        <div class="spotlight__left">
+          <div class="width__default one__sec">
+            <div class="spotlight__category title-box-category">
+              <h2 class="main-text spotlight__txt">
+                <a href="">Spotlight</a>
+              </h2>
+            </div>
+            <article class="item-news" style="background: #f7f7f7">
+              <div class="art spotlight__arc">
+                <img src="./assets/stream-image3.jpg" alt="" />
+              </div>
+              <h3 class="title-news">
+                <a href="">Vòng xoáy di cư</a>
+              </h3>
+              <p class="description">
+                11 tuổi, Thạch Khang mới học được nửa lớp 1. Những chuyến di cư
+                thời vụ cùng ba mẹ lên TP HCM để làm ruộng khiến cậu không bắt
+                kịp con chữ.
+              </p>
+              <p class="meta-news">
+                Thời sự
+                <a href="" class="count-cmt" style="margin-left: 10px">
+                  <i class="fa-solid fa-comment"></i>
+                  2
+                </a>
+              </p>
+            </article>
+          </div>
+          <div style="clear: both"></div>
+          <div class="second__sec has__borderBT">
+            <div class="spotlight__category title-box-category">
+              <h2 class="main-text spotlight__txt">
+                <a href="">Infographics</a>
+              </h2>
+            </div>
+            <div class="width__default">
+              <article class="item-news">
+                <div class="art">
+                  <img src="./assets/news-img3.jpg" alt="" />
+                </div>
+                <h3 class="title-news">
+                  <a href=""
+                    >Tại sao tác giả cần gạt nước ôtô không được hưởng lợi từ
+                    phát minh?</a
+                  >
+                  <a href="" class="count-cmt" style="margin-left: 10px">
+                    <i class="fa-solid fa-comment"></i>
+                    15
+                  </a>
+                </h3>
+              </article>
+              <article class="item-news">
+                <div class="art">
+                  <img src="./assets/news-img2.jpg" alt="" />
+                </div>
+                <h3 class="title-news">
+                  <a href=""
+                    >Nữ minh tinh Hollywood được mệnh danh 'mẹ đẻ' của Wi-Fi</a
+                  >
+                  <a href="" class="count-cmt" style="margin-left: 10px">
+                    <i class="fa-solid fa-comment"></i>
+                    2
+                  </a>
+                </h3>
+              </article>
+            </div>
+          </div>
+          <!-- <div class="third__sec"></div> -->
+          <div class="four__sec">
+            <div class="spotlight__category title-box-category">
+              <h2 class="main-text spotlight__txt">
+                <a href="">Xem nhiều</a>
+              </h2>
+            </div>
+            <div class="width__default viewest__list">
+              <article class="item-news has__borderBT" style="order: 1">
+                <span class="number__viewest">1</span>
+                <h3 class="title-news" style="font-weight: normal">
+                  <a href=""
+                    >Lo gói vay 125.000 tỷ đồng cho nhà xã hội tiếp tục ế</a
+                  >
+                </h3>
+              </article>
+              <article class="item-news has__borderBT" style="order: 3">
+                <span class="number__viewest">2</span>
+                <h3 class="title-news" style="font-weight: normal">
+                  <a href="">Cứu du khách người Anh lạc ở rừng Hoàng Liên</a>
+                </h3>
+              </article>
+              <article class="item-news has__borderBT" style="order: 5">
+                <span class="number__viewest">3</span>
+                <h3 class="title-news" style="font-weight: normal">
+                  <a href="">Nga áp đảo Ukraine nhờ năng lực sản xuất vũ khí</a>
+                </h3>
+              </article>
+              <article class="item-news" style="order: 7">
+                <span class="number__viewest">4</span>
+                <h3 class="title-news" style="font-weight: normal">
+                  <a href="">Việt Nam vào tứ kết U23 châu Á sớm một lượt</a>
+                </h3>
+              </article>
+              <article class="item-news has__borderBT" style="order: 2">
+                <span class="number__viewest">5</span>
+                <h3 class="title-news" style="font-weight: normal">
+                  <a href="">Nga áp đảo Ukraine nhờ năng lực sản xuất vũ khí</a>
+                  <a href="" class="count-cmt" style="margin-left: 10px">
+                    <i class="fa-solid fa-comment"></i>
+                    15
+                  </a>
+                </h3>
+              </article>
+              <article class="item-news has__borderBT" style="order: 4">
+                <span class="number__viewest">6</span>
+                <h3 class="title-news" style="font-weight: normal">
+                  <a href=""
+                    >Hàng chục quốc gia tham dự triển lãm quốc phòng Việt Nam</a
+                  >
+                  <a href="" class="count-cmt" style="margin-left: 10px">
+                    <i class="fa-solid fa-comment"></i>
+                    15
+                  </a>
+                </h3>
+              </article>
+              <article class="item-news has__borderBT" style="order: 6">
+                <span class="number__viewest">7</span>
+                <h3 class="title-news" style="font-weight: normal">
+                  <a href="">12 oanh tạc cơ tàng hình Mỹ phô diễn sức mạnh</a>
+                  <a href="" class="count-cmt" style="margin-left: 10px">
+                    <i class="fa-solid fa-comment"></i>
+                    15
+                  </a>
+                </h3>
+              </article>
+              <article class="item-news" style="order: 8">
+                <span class="number__viewest">8</span>
+                <h3 class="title-news" style="font-weight: normal">
+                  <a href="">Malaysia căng thẳng trước trận đấu Việt Nam </a>
+                  <a href="" class="count-cmt" style="margin-left: 10px">
+                    <i class="fa-solid fa-comment"></i>
+                    15
+                  </a>
+                </h3>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="spotlight__right"></div>
+      </div>
+      <div class="other__section container">
+        <div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    </section>
+    <footer class="container" style="clear: both">
+      <div class="inner__footer width__default">
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a href="">Trang chủ</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Video</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Postcasts</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Ảnh</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Infographics</a>
+          </li>
+          <li class="footer__list-item border__top">
+            <a href="">Mới nhất</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Xem nhiều</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Tin nóng</a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a href="">Thời sự</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Góc nhìn</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Thế giới</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Kinh doanh</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Bất động sản</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Giải trí</a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a href="">Thể thao</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Pháp luật</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Giáo dục</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Sức khỏe</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Đời sống</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Du lịch</a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a href="">Khoa học</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Số hóa</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Xe</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Ý kiến</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Tâm sự</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Thư giãn</a>
+          </li>
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <a href="">Rao vặt</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Startup</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Mua ảnh VnExpress</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="">Ebox</a>
+          </li>
+        </ul>
+        <div class="contact__box">
+          <div class="app__down">
+            <p>Tải ứng dụng</p>
+            <a href="">
+              <img src="./assets/icon-exvn.jpg" alt="" />
+              VnExpress
+            </a>
+            <a href="" style="margin-right: 0">
+              <img src="./assets/icon-exvn.jpg" alt="" />
+              International
+            </a>
+          </div>
+          <div class="address__box" style="border-bottom: 1px solid #e5e5e5">
+            <p>Liên hệ</p>
+            <a href="">
+              <i class="fa-solid fa-envelope"></i>
+              Tòa soạn
+            </a>
+            <a href=""> Quảng cáo </a>
+            <a href="" class="contract">
+              <span></span>
+              Hợp tác bản quyền
+            </a>
+          </div>
+          <div class="hotline">
+            <p>Đường dây nóng</p>
+            <div class="left">
+              <strong>083.888.0123</strong>
+              <p>(Hà Nội)</p>
+            </div>
+            <div class="rightt">
+              <strong>082.233.3555</strong>
+              <p>(TP. Hồ Chí Minh)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="clear: both"></div>
+      <div class="copyright__box width__default">
+        <p>
+          <a href="" class="copyright__logo">
+            <span>Báo điện tử</span>
+            <img src="./assets/logo.svg" alt="" />
+          </a>
+        </p>
+        <div class="copyright__content">
+          <a href="" style="border-left: none">Điều khoản sử dụng</a>
+          <a href="">Chính sách bảo mật</a>
+          <a href="">Cookies</a>
+          <a href="">RSS</a>
+          <span>Theo dõi VnExpress trên</span>
+          <a href="" class="icon" style="margin-left: 10px">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="" class="icon" style="margin-left: 5px">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+          <a href="" class="icon" style="margin-left: 5px">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+        </div>
+      </div>
+      <div class="copyright__footer width__default">
+        <div class="col1">
+          <strong>Báo tiếng Việt nhiều người xem nhất</strong>
+          <p>Thuộc Bộ Khoa học và Công nghệ</p>
+          <p>Số giấy phép: 548/GP-BTTTT ngày 24/08/2021</p>
+        </div>
+        <div class="col2">
+          <p>Tổng biên tập: Phạm Hiếu</p>
+          <p>
+            Địa chỉ: Tầng 10, Tòa A FPT Tower, số 10 Phạm Văn Bạch, Dịch Vọng,
+            Cầu Giấy, Hà Nội
+          </p>
+          <p>Điện thoại: 024 7300 8899 - máy lẻ 4500</p>
+        </div>
+        <p class="col_txt">© 1997-2024. Toàn bộ bản quyền thuộc VnExpress</p>
+      </div>
+    </footer>
+  </body>
+  <script src="./js/style.js"></script>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+  </style>
+</html>
